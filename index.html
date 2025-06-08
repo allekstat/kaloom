@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            rel="stylesheet"
+            href="bootstrap/5.3.6/css/bootstrap.css"
+        />
+        <link
+            rel="stylesheet"
+            href="bootstrap/icons/1.13.1/bootstrap-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="estilos.css"
+        />
+        <title>Layout</title>
+    </head>
+    <body class="body-tela">
+        <div class="text-light p-lg-5 container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <!-- PARTE DA ESQUERDA -->
+                    <div class="row">
+                        <div class="col">
+                            <span class="h1">Kaloom</span>
+                        </div>
+                    </div>
+                    <div class="my-4 row">
+                        <!-- PARTE DO CARD DO USUÁRIO -->
+                        <div class="card-usuario overflow-hidden rounded-3 pt-lg-4 p-lg-2 col">
+                            <div class="row">
+                                <div class="divisao-fundo-card col">
+                                    <i class="icone-perfil text-dark d-inline-flex p-lg-1 h1 m-lg-0 rounded-circle text-center align-content-center bi bi-person-fill"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="texto-card h3 col">
+                                    <span>Username</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="texto-card mb-lg-3 col">
+                                    <span>Lorem Ipsum</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="texto-card col">
+                                    <span>Sao Paulo</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="texto-card col">
+                                    <span>Etec Diadema</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- PARTE DOS BOTÕES DE NAVEGAÇÃO -->
+                        <div class="col">
+                            <div class="botao-ativo rounded-5 mb-lg-3 row">
+                                <div class="py-lg-2 col">
+                                    <i class="bi bi-house-fill"></i>
+                                    <span>&nbsp;Home</span>
+                                </div>
+                            </div>
+                            <div class="mb-lg-3 row">
+                                <div class="col">
+                                    <i class="bi bi-person"></i>
+                                    <span>&nbsp;Profile</span>
+                                </div>
+                            </div>
+                            <div class="mb-lg-3 row">
+                                <div class="col">
+                                    <i class="bi bi-search"></i>
+                                    <span>&nbsp;Explore</span>
+                                </div>
+                            </div>
+                            <div class="mb-lg-3 row">
+                                <div class="col">
+                                    <i class="bi bi-bell"></i>
+                                    <span>&nbsp;Notifications</span>
+                                </div>
+                            </div>
+                            <div class="mb-lg-3 row">
+                                <div class="col">
+                                    <i class="bi bi-gem"></i>
+                                    <span>&nbsp;Premium</span>
+                                </div>
+                            </div>
+                            <div class="mb-lg-3 row">
+                                <div class="col">
+                                    <i class="bi bi-stars"></i>
+                                    <span>&nbsp;LoomAI</span>
+                                </div>
+                            </div>
+                            <div class="mb-lg-3 row">
+                                <div class="col">
+                                    <i class="bi bi-people"></i>
+                                    <span>&nbsp;Communities</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <i class="bi bi-gear"></i>
+                                    <span>&nbsp;Settings</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-lg-2 px-lg-5 col">
+                    <!-- PARTE DO MEIO -->
+                    <div class="row">
+                        <div class="col">
+                            <span class="h3">Home</span>
+                        </div>
+                        <div class="caixa-pesquisa rounded-5 col-lg-auto">
+                            <div class="h-100 row">
+                                <div class="align-content-center col-lg-auto">
+                                    <i class="bi bi-search"></i>
+                                </div>
+                                <div class="col">
+                                    <input
+                                        placeholder="O que está procurando?"
+                                        class="input-pesquisa"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-lg-4 row">
+                        <div class="col">
+                            <div class='text-center row'>
+                                <div class='texto-fraco border-bottom border-secondary p-lg-2 col'>For You</div>
+                                <div class='texto-fraco border-bottom border-secondary p-lg-2 col'>Etecs</div>
+                                <div class='texto-fraco border-bottom border-secondary p-lg-2 col'>Fatecs</div>
+                                <div class='texto-fraco border-bottom border-secondary p-lg-2 col'>Groups</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <!-- PARTE DA CAIXA PENSANDO -->
+                            <div class='caixa-pensando rounded-3 p-lg-3 mt-lg-3 row'>
+                                <div class='col-lg-auto'>
+                                    <i class="icone-perfil text-dark d-inline-flex p-lg-1 h3 m-lg-0 rounded-circle text-center align-content-center bi bi-person-fill"></i>
+                                </div>
+                                <div class='col'>
+                                    <textarea class='textarea-pensando h4' placeholder='No que está pensando?'></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-lg-3 row">
+                        <div class="col">
+                            <div class='rol'>
+                                <div class='col'>
+                                    <span class='h5'>Latest</span>
+                                </div>
+                            </div>
+                            <div class='postagem mt-lg-3 row'>
+                                <!-- PARTE DA POSTAGEM -->
+                                <div class='col'>
+                                    <div class='row'>
+                                        <div class='col-lg-auto'>
+                                            <i class="icone-perfil text-dark d-inline-flex p-lg-1 h3 m-lg-0 rounded-circle text-center align-content-center bi bi-person-fill"></i>
+                                        </div>
+                                        <div class='col'>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span class='h6'>André</span>
+                                                </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span>Lorem impsum</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='mt-lg-3 row'>
+                                        <!-- PARTE DOS BOTÕES DE AÇÃO NA POSTAGEM -->
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-heart'></i>
+                                            <span>23</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-chat-dots'></i>
+                                            <span>5</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-send'></i>
+                                            <span>12</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-bookmarks'></i>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='postagem mt-lg-3 row'>
+                                <!-- PARTE DA POSTAGEM -->
+                                <div class='col'>
+                                    <div class='row'>
+                                        <div class='col-lg-auto'>
+                                            <i class="icone-perfil text-dark d-inline-flex p-lg-1 h3 m-lg-0 rounded-circle text-center align-content-center bi bi-person-fill"></i>
+                                        </div>
+                                        <div class='col'>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span class='h6'>André</span>
+                                                </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span>Lorem impsum</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='mt-lg-3 row'>
+                                        <!-- PARTE DOS BOTÕES DE AÇÃO NA POSTAGEM -->
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-heart'></i>
+                                            <span>23</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-chat-dots'></i>
+                                            <span>5</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-send'></i>
+                                            <span>12</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-bookmarks'></i>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='postagem mt-lg-3 row'>
+                                <!-- PARTE DA POSTAGEM -->
+                                <div class='col'>
+                                    <div class='row'>
+                                        <div class='col-lg-auto'>
+                                            <i class="icone-perfil text-dark d-inline-flex p-lg-1 h3 m-lg-0 rounded-circle text-center align-content-center bi bi-person-fill"></i>
+                                        </div>
+                                        <div class='col'>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span class='h6'>André</span>
+                                                </div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span>Lorem impsum</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='mt-lg-3 row'>
+                                        <!-- PARTE DOS BOTÕES DE AÇÃO NA POSTAGEM -->
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-heart'></i>
+                                            <span>23</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-chat-dots'></i>
+                                            <span>5</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-send'></i>
+                                            <span>12</span>
+                                        </div>
+                                        <div class='col-lg-auto'>
+                                            <i class='bi bi-bookmarks'></i>
+                                            <span>3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <!-- PERTE DA DIREITA -->
+                    <div class="row">
+                        <div class="col">
+                            <div class='mt-lg-5 row'>
+                                <div class='col'>
+                                    <span class='h2'>Ranking</span>
+                                </div>
+                            </div>
+                            <div class='mt-lg-3 row'>
+                                <div class='col'>
+                                    <!-- PARTE DOS RANKINGS -->
+                                    <div class='mb-lg-2 row'>
+                                        <div class='col'>
+                                            <div class='botao-ativo rounded-1 row'>
+                                                <div class='col-lg-auto py-lg-2'>
+                                                    <i class='bi bi-trophy-fill'></i>
+                                                </div>
+                                                <div class='align-content-center col'>
+                                                    <span>Etec JK - Sede Diadema</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='mb-lg-2 row'>
+                                        <div class='col'>
+                                            <div class='rounded-1 row'>
+                                                <div class='col-lg-auto py-lg-2'>
+                                                    <i class='bi bi-arrow-up'></i>
+                                                </div>
+                                                <div class='align-content-center col'>
+                                                    <span>Fatec São Paulo</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='mb-lg-2 row'>
+                                        <div class='col'>
+                                            <div class='rounded-1 row'>
+                                                <div class='col-lg-auto py-lg-2'>
+                                                    <i class='bi bi-arrow-up'></i>
+                                                </div>
+                                                <div class='align-content-center col'>
+                                                    <span>Fatec Luigi Papaiz - Diadema</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='mb-lg-2 row'>
+                                        <div class='col'>
+                                            <div class='rounded-1 row'>
+                                                <div class='col-lg-auto py-lg-2'>
+                                                    <i class='bi bi-arrow-down'></i>
+                                                </div>
+                                                <div class='align-content-center col'>
+                                                    <span>Etec Lauro Gomes</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='mb-lg-2 row'>
+                                        <div class='col'>
+                                            <div class='rounded-1 row'>
+                                                <div class='col-lg-auto py-lg-2'>
+                                                    <i class='bi bi-arrow-up'></i>
+                                                </div>
+                                                <div class='align-content-center col'>
+                                                    <span>Etec Albert Einstein - SP</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='row'>
+                                <div class='col'>
+                                    <a href='#'>O que é esse ranking?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class='my-lg-3 row'>
+                                <div class='col'>
+                                    <span class='h3'>Sponsored</span>
+                                </div>
+                            </div>
+                            <div class='row'>
+                                <div class='col'>
+                                    <!-- PARTE DOS ANÚNCIOS -->
+                                    <div class='mb-lg-3 row'>
+                                        <div class='col'>
+                                            <img src='imagens/HDRI_Sample_Scene_Balls_(JPEG-HDR).jpg' class='rounded-3 w-100'>
+                                        </div>
+                                        <div class='d-flex flex-column justify-content-between py-lg-2 col'>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span>Inscrições abertas</span>
+                                                </div>
+                                            </div>
+                                            <div class='row'>site</div>
+                                        </div>
+                                    </div>
+                                    <div class='row'>
+                                        <div class='col'>
+                                            <img src='imagens/HDRI_Sample_Scene_Balls_(JPEG-HDR).jpg' class='rounded-3 w-100'>
+                                        </div>
+                                        <div class='d-flex flex-column justify-content-between py-lg-2 col'>
+                                            <div class='row'>
+                                                <div class='col'>
+                                                    <span>Inscrições abertas</span>
+                                                </div>
+                                            </div>
+                                            <div class='row'>site</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class='row'>
+                                <div class='col'>
+                                    <span class='h3'>Follow</span>
+                                </div>
+                            </div>
+                            <div class='row'>
+                                <div class='col border rounded-3'>
+                                    <!-- PARTE DOS FOLLOWS -->
+                                    <div class='row'>
+                                        <div class='col-lg-auto'>foto</div>
+                                        <div class='col-lg-auto'>
+                                            <div class='row'>
+                                                <div class='col'>nome</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col'>@arroba</div>
+                                            </div>
+                                        </div>
+                                        <div class='col'>botao</div>
+                                    </div>
+                                    <div class='row'>
+                                        <div class='col-lg-auto'>foto</div>
+                                        <div class='col-lg-auto'>
+                                            <div class='row'>
+                                                <div class='col'>nome</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col'>@arroba</div>
+                                            </div>
+                                        </div>
+                                        <div class='col'>botao</div>
+                                    </div>
+                                    <div class='row'>
+                                        <div class='col-lg-auto'>foto</div>
+                                        <div class='col-lg-auto'>
+                                            <div class='row'>
+                                                <div class='col'>nome</div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class='col'>@arroba</div>
+                                            </div>
+                                        </div>
+                                        <div class='col'>botao</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bootstrap/5.3.6/js/bootstrap.js"></script>
+        <script src="jquery/3.7.1/jquery.js"></script>
+        <script src="codigos.js"></script>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+:root
+{
+    --roxo-fundo: #1f0b33;
+    --roxo-caixa: #3e1a62;
+    --roxo-ativo: #573580;
+    --roxo-fraco: #a37fc1;
+    --roxo-perfil: #8e3bf2;
+    cursor: default;
+    user-select: none;
+}
+.body-tela
+{
+    background-color: var(--roxo-fundo);
+}
+.texto-fraco
+{
+    color: var(--roxo-fraco);
+}
+.card-usuario
+{
+    background-image: linear-gradient(white 40%, #3e1a62 40%);
+    border: 1px solid var(--roxo-ativo);
+}
+.divisao-fundo-card
+{
+    background-image: linear-gradient(white 50%, #3e1a62 50%)
+}
+.icone-perfil
+{
+    background-color: #8e3bf2;
+}
+.texto-card
+{
+    background-color: #3e1a62
+}
+.caixa-pesquisa
+{
+    background-color: var(--roxo-ativo);
+}
+.input-pesquisa
+{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    /* outline: 1px dashed red; */
+    &:focus-visible
+    {
+        outline: 0;
+    }
+}
+.caixa-pensando
+{
+    background-color: var(--roxo-caixa);
+    border: 1px solid var(--roxo-ativo);
+    min-height: 7em;
+}
+.textarea-pensando
+{
+    /* vertical-align: super; */
+    width: 100%;
+    min-height: 3em;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    /* outline: 1px dashed red; */
+    &:focus-visible
+    {
+        outline: 0;
+    }
+}
+.botao-ativo
+{
+    background-color: var(--roxo-ativo);
+}
+/* * {
+    outline: 1px dashed red;
+} */
